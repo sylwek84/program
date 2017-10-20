@@ -12,10 +12,12 @@ int main(void) /* oznacza ze nie mamy zadnych parametrow */
 {
 	int a = 2, b = 5;  /* deklaracj wraz z inicjalizacja */
 	char wybor = '*';
-	/*if(wyrazenie) {blok jesli wyrazenie prawdziwe}
-	else {blok jesli wyrazenie falszywe};	*/
+		/*if(wyrazenie) {blok jesli wyrazenie prawdziwe}
+		else {blok jesli wyrazenie falszywe};	*/
 
-	if(wybor == '*') {
+	if(wybor == '*') /* mozemy zmienic na dodawania + */
+			/* sprawdzenie czy rowne, to nie jest '=' */
+ {
 		printf("Wynik mnozenia: %i\n", mnoz(a, b));
 	}else{
 		printf("Wynik dodawania: %i\n", dodaj(a, b));
