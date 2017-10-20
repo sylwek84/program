@@ -11,10 +11,16 @@ a % b); return a / b;}
 int main()
 {	int a, b;  
 	char wybor;
+	int czy_dalej = 1; 
 
-	printf("Podaj wartosc argumentu a: "); scanf("%i", &a); 
-	printf("Podaj wartosc argumentu b: "); scanf("%i", &b); 
-	printf("Podaj dzialanie: "); scanf("%c", &wybor); 
+	while(czy_dalej == 1) {
+		printf("Podaj wartosc argumentu a: "); scanf("%i", &a); 
+		printf("Podaj wartosc argumentu b: "); scanf("%i", &b); 
+		printf("Podaj dzialanie: "); scanf("%c", &wybor); 
+
+		licz(a, b, wybor);
+		printf("Czy dalej chcesz liczyc? (1 - tak, 0 - nie); 
+		scanf(
 
 	scanf("%c", &wybor);
 
