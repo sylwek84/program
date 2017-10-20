@@ -115,3 +115,80 @@
   115  git commit - m "mnozenie i dodawanie"
   116  gcc program2.c -o program2.o
   117  history > readme.md
+  118  git add .
+  119  git commit -m "historia"
+  120  git push
+  121  nano program2.c
+  122  gcc program2.c -o program2.o
+  123  nano program2.c
+  124  gcc program2.c -o program2.o
+  125  nano program2.c
+  126  gcc program2.c -o program2.o
+  127  nano program2.c
+  128  gcc program2.c -o program2.o
+  129  ./program2.o
+  130  git add .
+  131  git commit
+  132  git commit -m "kontrolne"
+  133  git push
+  134  nano program2.c
+  135  gcc program3.c -o program3.o
+  136  nano program3.c
+  137  gcc program3.c -o program3.o
+  138* nano program3.o
+  139  gcc program3.c -o program3.o
+  140  ./program3.o
+  141  git add .
+  142  git commit -m "program3"
+  143  git push
+  144  git log
+  145  git add .
+  146  git commit
+  147  git push
+  148  nano program3.c
+  149  cd ..
+  150  mkdir klon_z_serwera
+  151  cd klon_z_serwera/
+  152  git clone 
+  153  git clone https://github.com/sylwek84/program.git
+  154  git log
+  155  ls
+  156  nano program3.c
+  157  cd ..
+  158  cd pierwszy_program
+  159  nano program3.c
+  160  gcc program3.c -o program3.o
+  161  nano program3.c
+  162  gcc program3.c -o program3.o
+  163  ./program3.o
+  164  +
+  165  nano program3.c
+  166  gcc program3.c -o program3.o
+  167  ./program3.o
+  168  nano program3.c
+  169  gcc program3.c -o program3.o
+  170  ./program3.o
+  171  nano program3.c
+  172  gcc program3.c -o program3.o
+  173  ./program3.o
+  174  nano program3.c
+  175  gcc program3.c -o program3.o
+  176  nano program3.c
+  177  gcc program3.c -o program3.o
+  178  ./program3.o
+  179  git add .
+  180  git commit -m "kalkulator"
+  181  git push
+  182  nano program3.c
+  183  gcc program3.c -o program3.o
+  184  ./program3.o
+  185  git add .
+  186  git commit
+  187  git commit -m "kalkulator"
+  188  git push
+  189  nano program3.c
+  190  gcc program3.c -o program3.o
+  191  git add .
+  192  git commit -m "kalkulator"
+  193  git push
+  194  history > readme.md
