@@ -7,11 +7,15 @@ int odejmij(int a, int b) { printf("Wynik odejmowania: %i\n", a - b);
 return a - b; }
 int dziel(int a, int b) { printf("Wynik dzielenia: %i\n", a / b); return a / b;}
 
-int main(void)
-{	int a = 2, b = 5;  
+int main()
+{	int a, b;  
 	char wybor;
 
-	scanf("%c", &wybor);  
+	printf("Podaj wartosc argumentu a: "); scanf("%i", &a); 
+	printf("Podaj wartosc argumentu b: "); scanf("%i", &b); 
+	printf("Podaj dzialanie: "); scanf("%c", &wybor); 
+
+	scanf("%c", &wybor);
 
 	if(wybor == '*') 
 	{ mnoz(a, b); }
