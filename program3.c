@@ -19,8 +19,8 @@ int main()
 		printf("Podaj dzialanie: "); scanf("%c", &wybor); 
 
 		licz(a, b, wybor);
-		printf("Czy dalej chcesz liczyc? (1 - tak, 0 - nie); 
-		scanf(
+		printf("Czy dalej chcesz liczyc? (1 - tak, 0 - nie)"; 
+		scanf("%i", 
 
 	scanf("%c", &wybor);
 
